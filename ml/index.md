@@ -1,4 +1,6 @@
-# Good Morning
+# Machine Learning Notes
+
+***
 
 [Bias & Variance](https://colab.research.google.com/drive/1jgfUsLW_sYROYxxQJgGNAZvkp_OO9YZ0?usp=sharing)
 
