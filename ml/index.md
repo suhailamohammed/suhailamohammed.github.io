@@ -12,6 +12,8 @@
 
 [Unsupervised Learning](https://colab.research.google.com/drive/1f6n09htQCwSXo38_C4qlXefcVF-Mp0KE?usp=sharing)
 
+[Anomaly Detection](https://colab.research.google.com/drive/1w6mzYifuygcqm_n5Jhzpy3aAzu-UDJ92?usp=sharing)
+
 
 
 
