@@ -1,4 +1,4 @@
-# Machine Learning Notes
+# Deep Learning Notes
 
 ***
 
