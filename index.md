@@ -2,7 +2,7 @@
 
 * * *
 
-# [Deep learning](https://suhailamohammed.github.io/dl)
+# [Deep Learning](https://suhailamohammed.github.io/dl)
 
 * * *
 
