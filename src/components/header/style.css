@@ -1,0 +1,67 @@
+.headerBody {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 8px; /* Further reduced vertical padding */
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    height: 40px; /* Fixed, shorter height */
+    display: flex;
+    align-items: center;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 0 8px; /* Slightly reduced horizontal padding */
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* width: 100%; */
+}
+
+.headerTitle {
+    font-size: 15px; /* Smaller font */
+    font-weight: 600;
+    color: #000;
+}
+
+.headerButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 13px;
+    gap: 6px;
+    padding-right: 10px;
+}
+
+.headerButtons button {
+    background-color: #fff;
+    color: rgba(0,0,0,.5);
+    border: none;
+    padding: 10px 10px; /* Smaller padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+
+.headerButtons button:hover {
+    color: rgba(0,0,0,.6);
+    outline: none;
+}
+
+.headerButtons button.activeButton {
+    color: rgba(0,0,0,.6);
+    font-weight: 700;
+}
