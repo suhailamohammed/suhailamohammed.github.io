@@ -1,0 +1,22 @@
+.footerContainer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 -0.125rem 0.25rem rgba(0,0,0,.01)!important;
+    /* padding: 0px 10px; */
+}
+
+.footerContent {
+    display: flex;
+    /* padding: 3px 10px; */
+    justify-content: space-between;
+    margin: 0px 10px;
+    align-items: center;
+    /* padding-left: 12px; */
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
