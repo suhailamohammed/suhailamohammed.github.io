@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #555843;
+  --secondary-color: #8b6e58;
+  --text-color: #1f2937;
+  --light-gray: #f3f4f6;
+  --medium-gray: #e5e7eb;
+  --font-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
+  --font-lg: clamp(1.1rem, 1rem + 0.4vw, 1.4rem);
+  --font-xl: clamp(1.5rem, 1.25rem + 1vw, 2rem);
+  --font-2xl: clamp(2rem, 1.5rem + 2vw, 2.5rem);
+}
+
+.experienceContainer {
+  max-width: min(90%, 800px);
+  margin: 3rem auto;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  padding: 0 1rem;
+}
+
+.experienceContainer h2 {
+  text-align: left;
+  color: var(--primary-color);
+  letter-spacing: -0.025em;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+.topDescription {
+  margin: 20px 0 30px;
+  color: var(--dark-gray);
+  font-size: 1.05rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 20px;
+}
+
+.resumeLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.resumeLink:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.linkIcon {
+  font-size: 0.9rem;
+}
+
+.company {
+  margin-bottom: 3rem;
+}
+
+.companyTitle {
+  font-size: var(--font-lg);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.companyLogo {
+  height: 1.75rem;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.placeLink {
+  text-decoration: none !important;
+  color: var(--secondary-color);
+  font-weight: 600;
+  transition: color 0.3s;
+  display: flex;
+}
+
+.placeLink:hover {
+  color: var(--primary-color);
+}
+
+.subrole {
+  margin-top: 1.25rem;
+}
+
+.titleDateContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  background-color: var(--light-gray);
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+}
+
+.roleTitle {
+  font-size: var(--font-base);
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.timeline-date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.date-icon {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+
+.descriptionList {
+  margin-left: 1.5rem;
+  list-style: none;
+  line-height: 1.7;
+  font-size: var(--font-base);
+  color: #374151;
+  padding-left: 0;
+}
+
+.descriptionList li {
+  position: relative;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.descriptionList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.65em;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
+
+@media (max-width: 600px) {
+  .titleDateContainer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .roleTitle {
+    margin-bottom: 0.25rem;
+  }
+}
