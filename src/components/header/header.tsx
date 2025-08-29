@@ -8,27 +8,22 @@ function Header() {
   return (
     <div className="headerBody">
       <div className="headerContent">
-        <Link to="/">
-            <div className="headerTitle">
-            <h2>Suhaila Mohammed</h2>
-            </div>
-        </Link>
         <div className="headerButtons">
           <Link to="/">
             <button className={currentPath === "/" ? "activeButton" : ""}>Home</button>
           </Link>
-          <Link to="/research">
-            <button className={currentPath === "/research" ? "activeButton" : ""}>Publications</button>
+          <Link to="/academics">
+            <button className={currentPath === "/academics" ? "activeButton" : ""}>Academics</button>
           </Link>
           <Link to="/projects">
             <button className={currentPath === "/projects" ? "activeButton" : ""}>Projects</button>
           </Link>
-          <Link to="/resume">
-            <button className={currentPath === "/resume" ? "activeButton" : ""}>Resume</button>
+          <Link to="/experience">
+            <button className={currentPath === "/experience" ? "activeButton" : ""}>Experience</button>
           </Link>
-          <Link to="/hobbies">
+          {/* <Link to="/hobbies">
             <button className={currentPath === "/hobbies" ? "activeButton" : ""}>Hobbies</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

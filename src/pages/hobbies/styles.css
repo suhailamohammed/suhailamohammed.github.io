@@ -1,0 +1,133 @@
+/* :root {
+  --primary-color: #555843;
+  --secondary-color: #8b6e58;
+  --text-color: #1f2937;
+  --light-gray: #f3f4f6;
+  --medium-gray: #e5e7eb;
+  --dark-gray: #64748b;
+}
+
+.hobbiesContainer {
+  max-width: min(90%, 800px);
+  margin: 3rem auto;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  padding: 0 1rem;
+}
+
+.hobbiesContainer h2 {
+  text-align: left;
+  color: var(--primary-color);
+  letter-spacing: -0.025em;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.hob-intro {
+  color: var(--dark-gray);
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 20px;
+}
+
+.hob-section {
+  margin-bottom: 40px;
+  padding: 25px;
+  border-radius: 12px;
+  background: var(--light-gray);
+}
+
+.hob-section h3 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.hob-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.hob-tag {
+  background: #e8e8e8;
+  color: var(--primary-color);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.hob-highlight {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  border-left: 4px solid var(--secondary-color);
+}
+
+.highlight-content {
+  margin-bottom: 15px;
+}
+
+.highlight-content h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.highlight-content p {
+  margin: 5px 0 0;
+  color: var(--dark-gray);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background: white;
+  color: var(--dark-gray);
+  border: 1px solid var(--medium-gray);
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .hobbiesContainer {
+    padding: 20px 15px;
+    margin: 30px auto;
+  }
+  
+  .section {
+    padding: 20px;
+  }
+  
+  .chips, .tags {
+    gap: 8px;
+  }
+  
+  .chip, .tag {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+} */
