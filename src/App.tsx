@@ -5,6 +5,7 @@ import Home from './pages/home/home';
 import Academics from './pages/academics/academics';
 import Experience from './pages/experience/experience';
 import Projects from './pages/projects/projects';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -17,11 +18,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/Academics" element={<Academics />} />
             <Route path="/Experience" element={<Experience />} />
-            {/* <Route path="/Hobbies" element={<Hobbies />} /> */}
             <Route path='/Projects' element={<Projects />} />
           </Routes>
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </BrowserRouter>
   );
