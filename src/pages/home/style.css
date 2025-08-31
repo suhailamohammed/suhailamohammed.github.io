@@ -1,0 +1,152 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: start;
+    max-width: 750px;
+}
+
+.aboutContent p {
+    margin-bottom: 0;
+}
+
+.aboutContent a {
+    color: #3182ce;
+}
+
+.researchInterestContent {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f0f9ff;
+    border-left: 4px solid #3182ce;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 100%;
+    gap: 10px;
+    margin: 14px 0 0;
+}
+
+.label {
+    font-weight: 600;
+    margin-right: 12px;
+    color: #3182ce;
+    font-size: 14.5px;
+    white-space: nowrap;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background-color: #e6f2ff;
+    color: #3182ce;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.tag:hover {
+    background-color: #cce4ff;
+}
+
+.newsSection {
+    background: #ffffff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: 1px solid #edf2f7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    max-width: 700px;
+    margin-top: 14px;
+}
+
+.newsHeading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 16px;
+    border-left: 4px solid #3182ce;
+    padding-left: 12px;
+    text-align: left;
+}
+
+.newsItems {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.newsItem {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.newsDate {
+    font-size: 13px;
+    color: #4299e1;
+    font-weight: 500;
+    min-width: 90px;
+    flex-shrink: 0;
+}
+
+.newsText {
+    font-size: 14.5px;
+    color: #1f2937;
+    margin: 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.newsLink {
+    color: #3182ce;
+    text-decoration: none;
+}
+
+.newsLink:hover {
+    color: #63b3ed;
+}
+
+.aboutMeIconContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 6px;
+}
+
+.icon {
+    color: #2c5282;
+    transition: color 0.3s ease;
+    margin-right: 12px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #4299e1;
+}
