@@ -29,7 +29,7 @@ class Academics extends React.Component{
       github: null,
       arxiv: null,
       slide: "https://docs.google.com/presentation/d/1RZwGoJUo5_FTQ-ninW_P-JVvJQwQBq7a/edit?usp=sharing&ouid=114901786055181099173&rtpof=true&sd=true",
-      pdf: null,
+      pdf: "https://www.researchgate.net/publication/365986320_Face_Mask_Detection_Using_Artificial_Intelligence_to_Operate_Automatic_Door",
       image: FaceMaskImg,
     },
   ];

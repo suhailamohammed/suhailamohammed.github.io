@@ -65,7 +65,7 @@ class Home extends React.Component{
                             I am Suhaila, a software engineer with a bachelor’s degree in Computer Science and Engineering from 
                             <a href="https://iub.ac.bd/" target="_blank" rel="noopener noreferrer"> Independent University, Bangladesh</a>. 
                             I have previously worked as a Software Engineer at 
-                            <a href="https://chaldal.tech/" target="_blank" rel="noopener noreferrer"> Chaldal Ltd (Y-25) </a> 
+                            <a href="https://chaldal.tech/" target="_blank" rel="noopener noreferrer"> Chaldal Ltd (YC-S15) </a> 
                             and, during my final year, as an Undergraduate Research Assistant, where I focused on finding bio-markers using biomedical signals for stroke prediction.
                         </p>
                         <p>
@@ -79,8 +79,7 @@ class Home extends React.Component{
                             <span className="label">Research Interests:</span>
                             <div className="tags">
                                 <span className="tag">Machine Learning</span>
-                                <span className="tag">Deep Learning</span>
-                                <span className="tag">LLMs</span>
+                                <span className="tag">Natural Language Processing</span>
                                 <span className="tag">Healthcare</span>
                                 <span className="tag">CompBio</span>
                             </div>
@@ -115,7 +114,7 @@ class Home extends React.Component{
                                 .
                             </p>
                         </div>
-                        <div className="newsItem">
+                        {/* <div className="newsItem">
                             <span className="newsDate">May 2025</span>
                             <p className="newsText">
                                 Launched my personal dua jar website.{' '}
@@ -128,7 +127,7 @@ class Home extends React.Component{
                                 Do check it out!
                                 </a>
                             </p>
-                        </div>
+                        </div> */}
                         <div className="newsItem">
                             <span className="newsDate">Feb 2025</span>
                             <p className="newsText">Got promoted to <strong>Software Engineer L3</strong> @ Chaldal Ltd! 🎉</p>
