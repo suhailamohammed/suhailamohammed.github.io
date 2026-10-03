@@ -41,7 +41,7 @@ const newsData: NewsItemProps[] = [
     category: "publication",
     content: (
       <>
-        Another paper{" "}
+        Our work{" "}
         <a
           href="https://openreview.net/forum?id=9ok9NYTU27"
           target="_blank"
@@ -68,7 +68,7 @@ const newsData: NewsItemProps[] = [
     category: "publication",
     content: (
       <>
-        Our paper <em>"McMasterNLP at KnowledgeGraphEval-2026: Heterogeneous Expert Systems for Arabic Knowledge Graph Construction"</em>{" "}
+        Our work <em>"McMasterNLP at KnowledgeGraphEval-2026: Heterogeneous Expert Systems for Arabic Knowledge Graph Construction"</em>{" "}
         got accepted at the{" "}
         <a
           href="https://arabicnlp2026.sigarab.org/"
