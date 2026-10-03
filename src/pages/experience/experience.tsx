@@ -2,12 +2,28 @@ import React from "react";
 import { FaCalendarAlt, FaDownload } from "react-icons/fa";
 import ChaldalLogo from "../../assets/chaldal_com_logo.jpeg";
 import IubLogo from "../../assets/independent_university_bangladesh_logo.jpeg";
+import SevaLogo from "../../assets/Seva_logo (1).png";
 import "./styles.css";
 import ResumePDF from "../../assets/files/Suhaila_Mohammed_CV.pdf";
 
 
 class Experience extends React.Component {
   timelineData = [
+    {
+      place: "Seva Intelligence, Inc.",
+      link: "https://myseva.ai/",
+      logo: SevaLogo,
+      subroles: [
+        {
+          date: "Feb 2026 - Present",
+          title: "Product Lead & Software Engineer",
+          description: [
+            "Leading product strategy and engineering for an AI-powered care coordination platform for families navigating autism and ADHD.",
+            "Building software that helps caregivers centralize daily observations and care information across providers, educators, and clinicians.",
+          ]
+        }
+      ]
+    },
     {
       place: "Chaldal Ltd",
       link: "https://chaldal.tech/",

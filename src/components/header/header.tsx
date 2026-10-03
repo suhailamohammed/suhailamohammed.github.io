@@ -12,6 +12,9 @@ function Header() {
           <Link to="/">
             <button className={currentPath === "/" ? "activeButton" : ""}>Home</button>
           </Link>
+          <Link to="/news">
+            <button className={currentPath === "/news" ? "activeButton" : ""}>News</button>
+          </Link>
           <Link to="/academics">
             <button className={currentPath === "/academics" ? "activeButton" : ""}>Academics</button>
           </Link>

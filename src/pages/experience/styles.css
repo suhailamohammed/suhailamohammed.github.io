@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #1f2937;
-  --secondary-color: #3182ce;
-  --text-color: #1f2937;
-  --light-gray: #f3f4f6;
-  --medium-gray: #e5e7eb;
+  --primary-color: var(--text);
+  --secondary-color: var(--accent);
+  --text-color: var(--text);
+  --light-gray: var(--surface-alt);
+  --medium-gray: var(--border);
   --font-base: clamp(0.9rem, 0.85rem + 0.25vw, 1rem);
   --font-lg: clamp(1.1rem, 1rem + 0.4vw, 1.4rem);
   --font-xl: clamp(1.5rem, 1.25rem + 1vw, 2rem);
@@ -22,14 +22,14 @@
   text-align: left;
   color: var(--primary-color);
   letter-spacing: -0.025em;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid var(--border);
   padding-bottom: 8px;
 }
 .topDescription {
   margin: 20px 0 30px;
   color: var(--dark-gray);
   font-size: 1.05rem;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid var(--border);
   padding-bottom: 20px;
 }
 
@@ -124,7 +124,7 @@
   list-style: none;
   line-height: 1.7;
   font-size: var(--font-base);
-  color: #374151;
+  color: var(--text);
   padding-left: 0;
 }
 

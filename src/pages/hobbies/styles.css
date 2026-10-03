@@ -1,9 +1,9 @@
 /* :root {
   --primary-color: #555843;
   --secondary-color: #8b6e58;
-  --text-color: #1f2937;
-  --light-gray: #f3f4f6;
-  --medium-gray: #e5e7eb;
+  --text-color: var(--text);
+  --light-gray: var(--surface-alt);
+  --medium-gray: var(--border);
   --dark-gray: #64748b;
 }
 
@@ -19,7 +19,7 @@
   text-align: left;
   color: var(--primary-color);
   letter-spacing: -0.025em;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid var(--border);
   padding-bottom: 8px;
   margin-bottom: 20px;
 }
@@ -27,7 +27,7 @@
 .hob-intro {
   color: var(--dark-gray);
   margin-bottom: 30px;
-  border-bottom: 2px solid #f0f0f0;
+  border-bottom: 2px solid var(--border);
   padding-bottom: 20px;
 }
 

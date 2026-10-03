@@ -5,6 +5,8 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import tseslint from 'typescript-eslint'
 import { globalIgnores } from 'eslint/config'
 
+const reactHooksRecommended = reactHooks.configs['recommended-latest']
+
 export default tseslint.config([
   globalIgnores(['dist']),
   {
@@ -12,9 +14,12 @@ export default tseslint.config([
     extends: [
       js.configs.recommended,
       tseslint.configs.recommended,
-      reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
     ],
+    plugins: {
+      'react-hooks': reactHooks,
+    },
+    rules: reactHooksRecommended.rules,
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
